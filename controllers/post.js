@@ -92,7 +92,7 @@ router.delete(
      const post = await Post.findOne({_id : postId , userdId : userId });
      if(!post){
         msg = " No Such post available"
-        res.json({msg})
+        res.status(500).json({msg})
         return 
      }
      
@@ -128,7 +128,7 @@ router.get(
      const post = await Post.findOne({_id : postId});
      if(!post){
         msg = " No Such post available"
-        res.json({msg})
+        res.status(500).json({msg})
         return 
      }
      console.log(post)

@@ -29,6 +29,11 @@ app.use('/api/like', require('./controllers/like'));
 app.use('/api/unlike', require('./controllers/unlike'));
 app.use('/api/comment', require('./controllers/comment'));
 
+
+if(!module.parent){
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`)
 })
+}
+
+module.exports =app;
