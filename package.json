@@ -15,7 +15,7 @@
     "uniqid": "^5.4.0"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "mocha --timeout 10000"
   }
 }
