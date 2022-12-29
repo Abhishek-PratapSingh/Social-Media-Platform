@@ -11,9 +11,13 @@
     "jsonwebtoken": "^9.0.0",
     "mocha": "^10.2.0",
     "mongoose": "^6.8.1",
-    "nodemon": "^2.0.20",
     "uniqid": "^5.4.0"
   },
+
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+
   "scripts": {
     "start": "node index.js",
     "test": "mocha --timeout 10000"
