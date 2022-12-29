@@ -13,3 +13,6 @@
 <li> GET: User can fetch all his post by a get API.
 <li> GET: Fetch all the comments on a particular post.
 
+### Testing 
+<li> Unit Testing has been done using Mocha framework along with Chai as an assertion library
+  
